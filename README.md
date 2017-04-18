@@ -46,8 +46,9 @@ Notes for reviewer:
 
 * Create SSH keys and copy to server manually:
     * On your local machine generate SSH key pair with: `ssh-keygen`
-    * save youkeygen file in your ssh directory `/Users/username/.ssh/` example full file path that could be used: `/Users/username/.ssh/item-catalog`
+    * save youkeygen file in your ssh directory `/home/ubuntu/.ssh/` example full file path that could be used: `/home/ubuntu/.ssh/item-catalog`
     * You can add a password to use encase your keygen file gets compromised(you will be prompted to enter this password when you connect with key pair)
+    * Change the SSH port number configuration in Amazon lightsail in networking tab to 2200.
     * login into grader account using password set during user creation `ssh -v grader@*Public-IP-Address* -p 2200`
     * Make .ssh directory`mkdir .ssh`
     * make file to store key`touch .ssh/authorized_keys`
