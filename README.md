@@ -14,7 +14,8 @@ Notes for reviewer:
 * Start a new Ubuntu Linux server instance on Amazon Lightsail.
 * Launch Amazon Lightsail terminal
     * Must be logged into your Amazon Web Services account.
-    * Visit this [link](https://www.udacity.com/account#!/development_environment) and press Create Development Environment.
+    * Visit this [link](https://lightsail.aws.amazon.com/) and press Create new instance of Ubuntu.
+    * You will get your respective public IP address.
 
 * Create a new user named grader
     * `sudo adduser grader`
