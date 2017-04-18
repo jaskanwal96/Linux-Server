@@ -1,12 +1,11 @@
 # Linux-Server
 - Project 7 under the Full Stack Web Developer Nanodegree at Udacity
 
-See project live at: [http://ec2-35-160-19-49.us-west-2.compute.amazonaws.com/](http://ec2-35-160-19-49.us-west-2.compute.amazonaws.com/)
-
+See project live at: [link](http://ec2-54-174-112-36.compute-1.amazonaws.com/)
 Notes for reviewer:
-* public Ip: <del>`34.201.103.109`</del>
+* public Ip: `54.174.112.36`
 * SSH PORT: `2200`
-* Full project URL:[http://ec2-35-160-19-49.us-west-2.compute.amazonaws.com/](http://ec2-35-160-19-49.us-west-2.compute.amazonaws.com/)
+* Full project URL:[link](http://ec2-54-174-112-36.compute-1.amazonaws.com/)
 
 
 
@@ -197,8 +196,8 @@ Notes for reviewer:
     * by default no remote connections are [not allowed](http://www.postgresql.org/docs/9.2/static/auth-pg-hba-conf.html)
     * config database_setup.py `sudo nano database_setup.py`
     * `python engine = create_engine('postgresql://catalog:db-password@localhost/catalog')`
-    * repeat for application.py(main.py)
-    * copy your main app.py file into the __init__.py file `mv app.py __init__.py`
+    * repeat for project.py
+    * copy your main project.py file into the __init__.py file `mv project.py __init__.py`
     * Add catalog user `sudo adduser catalog`
     * login as postgres super user`sudo su - postgres`
     * enter postgres`psql`
