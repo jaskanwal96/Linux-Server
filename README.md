@@ -171,7 +171,7 @@ Notes for reviewer:
   * `sudo service apache2 restart`
 
 * Clone Github Repo
-    * `sudo git clone https://github.com/sivcan/Item-Catalog`
+    * `sudo git clone https://github.com/jaskanwal96/item-catalog`
     * make sure you get hidden files iin move `shopt -s dotglob`. Move files from clone directory to catalog `mv /var/www/catalog/devpost/* /var/www/catalog/catalog/`
     * remove clone directory `sudo rm -r devpost`
 
