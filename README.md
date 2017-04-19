@@ -1,11 +1,11 @@
 # Linux-Server
 - Project 7 under the Full Stack Web Developer Nanodegree at Udacity
 
-See project live at: [link](http://ec2-54-174-112-36.compute-1.amazonaws.com/)
+See project live at: [link](http://ec2-34-201-114-178.compute-1.amazonaws.com/)
 Notes for reviewer:
-* public Ip: `54.174.112.36`
+* public Ip: `34.201.114.178`
 * SSH PORT: `2200`
-* Full project URL:[link](http://ec2-54-174-112-36.compute-1.amazonaws.com/)
+* Full project URL:[link](http://ec2-34-201-114-178.compute-1.amazonaws.com/)
 
 
 
@@ -38,10 +38,9 @@ Notes for reviewer:
     * Install updates:`sudo sudo apt-get upgrade` Hit Y for yes and give yourself a break while it installs.
 
 * Change the SSH port from 22 to 2200 and other SSH configuration required from [grading rubic](https://www.udacity.com/course/viewer#!/c-nd004/l-3573679011/m-3608778867)
-    * `nano /etc/ssh/sshd_config` change `port 22` to `port 2200`
+    * `nano /etc/ssh/sshd_config` add `port 2200` below `port 22`
     * while in the file also change `PermitRootLogin prohibit-password` to `PermitRootLogin no` to disallow root login
     * Change `PasswordAuthentication` from `no` to `yes`. We will change back after finishing SHH login setup
-    * append `AllowUsers grader ` inside file to allow grade to login through SSH
     * save file(nano: `ctrl+x`, `Y`, Enter)
     * restart ssh service`sudo service ssh reload`
 
