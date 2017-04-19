@@ -16,6 +16,8 @@ Notes for reviewer:
     * Must be logged into your Amazon Web Services account.
     * Visit this [link](https://lightsail.aws.amazon.com/) and press Create new instance of Ubuntu.
     * You will get your respective public IP address.
+    * Download the default key-pair and copy to /.ssh folder.
+    * Now Use the command `ssh -i ~/.ssh/key.pem ubuntu@54.174.112.36` to create the instance on your terminal
 
 * Create a new user named grader
     * `sudo adduser grader`
