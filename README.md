@@ -17,6 +17,7 @@ Notes for reviewer:
     * Visit this [link](https://lightsail.aws.amazon.com/) and press Create new instance of Ubuntu.
     * You will get your respective public IP address.
     * Download the default key-pair and copy to /.ssh folder.
+    * Open your terminal and type in chmod 600 ~/.ssh/key.pem
     * Now Use the command `ssh -i ~/.ssh/key.pem ubuntu@34.201.114.178` to create the instance on your terminal
 
 * Create a new user named grader
