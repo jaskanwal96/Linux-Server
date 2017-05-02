@@ -174,7 +174,7 @@ Notes for reviewer:
 
 * Clone Github Repo
     * `sudo git clone https://github.com/jaskanwal96/item-catalog`
-    * make sure you get hidden files iin move `shopt -s dotglob`. Move files from clone directory to catalog `mv /var/www/catalog/devpost/* /var/www/catalog/catalog/`
+    * make sure you get hidden files iin move `shopt -s dotglob`. Move files from clone directory to catalog `mv /var/www/catalog/item-catalog/* /var/www/catalog/catalog/`
     * remove clone directory `sudo rm -r devpost`
 
 * make .git inaccessible
