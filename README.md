@@ -30,8 +30,8 @@ Notes for reviewer:
     * `sudo visudo`
     * inside the file add `grader   ALL=(ALL:ALL) ALL` below the root user under "#User privilege specification"
     * save file(nano: `ctrl+x`, `Y`, Enter)
-    * Add grader to `/etc/suoders.d/` and type in `grader   ALL=(ALL:ALL) ALL`
-    * Add root to `/etc/suoders.d/` and type in `root   ALL=(ALL:ALL) ALL`
+    * Add grader to `/etc/sudoers.d/` and type in `grader   ALL=(ALL:ALL) ALL`by command `sudo nano /etc/sudoers.d/grader`
+    * Add root to `/etc/suoders.d/` and type in `root   ALL=(ALL:ALL) ALL`by command `sudo nano /etc/sudoers.d/root`
 
 
 * Update all currently installed packages
